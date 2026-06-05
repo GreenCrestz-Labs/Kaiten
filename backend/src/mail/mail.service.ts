@@ -52,8 +52,8 @@ export class MailService {
   async sendWelcome(to: string, name: string): Promise<void> {
     await this.sendMail({
       to,
-      subject: 'Welcome to Smalda',
-      html: `<p>Hi ${name},</p><p>Thank you for joining Smalda. We are excited to help you secure your land documents.</p>`,
+      subject: 'Welcome to Kaiten',
+      html: `<p>Hi ${name},</p><p>Thank you for joining Kaiten. We are excited to help you secure your land documents.</p>`,
     });
   }
 

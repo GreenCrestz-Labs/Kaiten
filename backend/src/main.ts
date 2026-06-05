@@ -46,7 +46,7 @@ async function bootstrap() {
 
   // Swagger documentation
   const config = new DocumentBuilder()
-    .setTitle('SMALDA Authentication API')
+    .setTitle('Kaiten Authentication API')
     .setDescription(
       'Comprehensive authentication and authorization API with JWT, OAuth, and RBAC',
     )
